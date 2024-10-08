@@ -1,0 +1,22 @@
+body{
+    color: bisque;
+}
+.subrayado{
+    text-decoration: underline;
+    color:violet
+}
+.mayus{
+    text-transform: uppercase;/*colorcar  mayus*/
+}
+#nombre2{/*lis id van en #*/
+    background-color: black;
+    color: yellow;
+}
+p.subrayado{
+    color: blueviolet;
+    margin-left: 100px;
+}
+.cabezal{
+    font-family: 'impact';
+    text-shadow: 0cqb;
+}

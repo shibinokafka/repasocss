@@ -1,0 +1,13 @@
+body{
+    color:lightblue
+}
+.highlight{/*selectores se identifican con .*/
+    color:blue
+}
+.darkBg{
+    background-color: yellow;
+    padding: 20px;
+}
+.darkBg .highlight{/*selector anidado*/
+    color: white;
+}

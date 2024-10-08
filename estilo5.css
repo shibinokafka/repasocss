@@ -1,0 +1,56 @@
+a{
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid khaki;
+}
+a:link{
+    color: aliceblue;
+}
+a:hover{
+    color: aqua;
+    background: darkblue;
+}
+a:active{
+    color: chartreuse;
+    background: firebrick
+}
+a:visited{
+    color: cyan;
+}
+[type="radio"]:checked+label{
+    font-weight: bold;
+}
+div, fieldset{
+    margin: 2em;
+}
+input:required+:requiredFiend{
+    display: block;
+    color: gray;
+}
+input:required:valid+ .requiredField{
+    display: none;
+}
+input:out-of-range:invalid{
+    color: red;
+    border: 2px solid currentColor;
+    background: beige;
+}
+input:in-range:valid{
+    border: 2px solid green;
+}
+input:Invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: 2px solid green;
+}
+input:focus{
+    border: 5px solid orange;
+    outline:orange auto 10px;
+}
+:required ~ [type="submit"] , :required:valid ~[type="submit"]:disabled{
+    display: none;
+}
+:required:valid ~ [type="submit"], :required ~[type="submit"]:disabled{
+    display: inline-block;
+}

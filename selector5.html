@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo5.css">
+</head>
+<body>
+    <h1>estados de los enlaces</h1>
+    <a href="#">link sin visitar</a>
+    <a href="#">cursos sobre el link</a>
+    <a href="#">link al click</a>
+    <a href="#">link ya visitado</a>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magni, corporis repellat aliquam autem beatae atque aspernatur quibusdam. Dicta nulla accusantium reiciendis eveniet molestiae sapiente laudantium error iusto, voluptatum eos!</p>
+    <p>seleccione una opcion</p>
+    <input type="radio" id="opcion" name="opcion" value="1">
+    <label for="opcion1">1</label>
+    <input type="radio" id="opcion" name="opcion" value="2">
+    <label for="opcion2">2</label>
+    <input type="radio" id="opcion" name="opcion" value="3">
+    <label for="opcion3">3</label>
+
+    <br>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus velit ea cumque sint placeat dolores laborum reprehenderit excepturi ut adipisci, pariatur itaque accusantium commodi qui reiciendis voluptatum quos nesciunt culpa illo temporibus atque expedita eaque? Aliquid, quod sapiente facilis harum aut deleniti officiis optio. Possimus eos, totam nam ratione unde neque aliquid dolores accusantium necessitatibus, maiores temporibus vel suscipit! Iure, enim dolor! Aspernatur, est expedita provident modi rem exercitationem nostrum ut dolore! Corrupti voluptatum dignissimos accusamus ipsum perspiciatis magnam. Quam, ratione eum quisquam ab dolores tempore minus magnam illum non accusantium? Possimus delectus quo saepe, quis iste tenetur ipsam sint!</p>
+    <form>
+        <fieldset>
+            <div>
+                <label for="nombre">indique su nombre completo</label>
+                <input type="text" name="nombres" id="nombres" required>
+                <span class="requiredFiend">Campo Obligatoria</span>
+            </div>
+            <div>
+                <label for="nombre">indique su correo electronico</label>
+                <input type="mail" name="correo" id="correo" required>
+                <span class="requiredFiend">Campo Obligatoria</span>
+            </div>
+            <div>
+                <label for="nombre">indique su tel contacto</label>
+                <input type="text" name="nombres" id="nombres" required>
+                <span class="requiredFiend">Campo Obligatoria</span>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+            <label for="numero">Elija un numero de 1 a 10</label>
+            <input type="number" name="numero" id="numero" min="1" max="10" required>
+            <span class="requiredFiend">Campo oblogatorio</span>
+            </div>
+            <div>
+                <p>seleccione una opcion</p>
+                <input type="radio" id="opcion" name="opcion" value="1">
+                <label for="opcion1">1</label>
+                <input type="radio" id="opcion" name="opcion" value="2">
+                <label for="opcion2">2</label>
+                <input type="radio" id="opcion" name="opcion" value="3">
+                <label for="opcion3">3</label>  
+            </div>
+        </fieldset>
+        <div>
+            <input type="checkbox" name="acepto" id="acepto" required>
+            <label for="acepto">acepto las condiciones</label>
+            <input type="submit" value="enviar" disabled>
+            <input type="submit"value="enviar">
+        </div>
+    </form>
+</body>
+</html>
