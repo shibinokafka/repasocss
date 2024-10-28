@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.flex-container div{
+    background-color: bisque;
+    padding: 70px;
+    margin: 25px;
+}
+.container2{
+    flex-direction: row-reverse;
+    background-color: brown;
+}
+.container3{
+    flex-direction: column;
+}
+.container4{
+    flex-direction: column-reverse;
+    background-color: brown;
+}
+.col{
+    float: left;
+    width: 50%;
+}

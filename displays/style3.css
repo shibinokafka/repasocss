@@ -1,0 +1,23 @@
+.flex-container{
+    display: flex;
+    background-color: azure;
+    padding: 20px;
+}
+.flex-container div{
+    background-color: aliceblue;
+    padding: 25px;
+    margin: 25px;
+}
+.contianer1{
+    justify-content: flex-start;
+}
+.container2{
+    justify-content: flex-end;
+}
+.container3{
+    justify-content: center;
+}
+.col{
+    float: left;
+    width: 100%;
+}
